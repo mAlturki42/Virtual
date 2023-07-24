@@ -96,3 +96,17 @@ values
     ('Wayne Family', 'Protect the legacy of the Wayne name');
 ;
 
+insert into teams
+    (name, alias, superPower, powerRanking, team_id)
+values
+    ('Bruce Wayne', 'Batman', 'Martial Arts', 3, 1),
+    ('Clark Kent', 'Superman', 'Flight', 5, 1),
+    ('Jay Garrick', 'The Flash', 'Super-speed', 3, 2),
+    ('Alan Scott', 'Green Lantern', 'Ring Creation', 4, 2),
+    ('Helena Bertenelli', 'The Huntress', 'Crossbow Archery', 3, 3),
+    ('Dr. Harleen Quinzel', 'Harley Quinn', 'Hammer-fighting', 3, 3),
+    ('Floyd Lawton', 'Deadshot', 'Marksmaship', 2, 4),
+    ('Cecil Adams', 'Count Vertigo', 'Drug-dealing', 2, 4),
+    ('Damian Wayne', 'Robin', 'Swordsmanship', 2, 5),
+    ('Dick Grayson', 'Nightwing', 'Acrobatics', 3, 5)
+
