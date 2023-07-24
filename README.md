@@ -13,3 +13,7 @@ values
     ('Damian Wayne', 'Robin', 'Swordsmanship', 2),
     ('Dick Grayson', 'Nightwing', 'Acrobatics', 3)
 ;
+
+
+
+select * from heroes;
