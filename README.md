@@ -17,3 +17,36 @@ values
 
 
 select * from heroes;
+
+select name, alias from heroes;
+
+select name as "Hero Name", alias from heroes;
+
+select * from heroes where powerranking > 3;
+select * from heroes where powerranking > 2 and powerranking < 5 ;
+select * from heroes where powerranking >= 2 and powerranking < 5 ;
+select * from heroes where name like '%el%';
+
+select * from heroes;
+
+update heroes
+set superpower = 'Flight and strength of steel'
+where alias='Superman';
+
+update heroes
+set superpower = 'Flight, strength of steel, and laser in eyes',
+powerranking=4
+where alias='Superman';
+
+select * from heroes where name like '%el%';
+
+update heroes
+set powerranking=1
+where name like '%el%';
+
+select * from heroes;
+
+delete from heroes 
+where name like '%el%';
+
+
